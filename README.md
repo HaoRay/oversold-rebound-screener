@@ -155,26 +155,13 @@ python backtest.py --limit 300           # 快速试跑（只读前 300 只）
 
 ---
 
-## 十一、目录结构
-
-```
-oversold-rebound-screener/
-├── README.md          本说明
-├── config.json        参数（股票池、持有期、成本、各年阈值、披露文本）
-├── fetch_data.py      数据拉取
-├── backtest.py        独立回测
-├── scripts/
-│   └── scan.py        当日扫描
-└── data/              行情数据（自行拉取）
-```
-
-## 十二、免责声明
+## 十一、免责声明
 
 本项目仅用于学习与研究，不构成任何投资建议。历史统计不代表未来。所有交易决策与后果由使用者自行承担。
 
 ---
 
-## 十三、许可与版权
+## 十二、许可与版权
 
 Copyright 2026 `HaoRay`。
 
